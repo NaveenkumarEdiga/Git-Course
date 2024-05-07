@@ -1,0 +1,24 @@
+What is thread ?
+Ans). =>   Thread allows  a program to operate effectively by doing
+        multiple things at the same time.
+      =>    Threads can be used to perform complicated tasks in the
+        background without interrupting the main program.
+
+threads can be created in two ways 
+     => By extending thread class and overriding it's run method()
+
+     example:-
+                 class A extends thread {
+                   public void run(){
+                        System.out.println("This code is running in a Thread");
+                   }
+                 }
+
+    => By imeplementing Runnable interface method run()
+    
+     example :- 
+                class B implements Runnable{
+                   public void run(){
+                     System.out.println("This code is running in a thread");
+                   }
+                }
